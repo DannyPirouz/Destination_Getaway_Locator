@@ -1,8 +1,9 @@
+require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
 const app = express();
 
-const apiKey = '15e26598a7025eb11c33e4fd6993d2c0';
+const apiKey = process.env.KEY;
 
 app.use(express.static('public'));
 
