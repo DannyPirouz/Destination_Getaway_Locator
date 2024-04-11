@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Getaway Locator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Destination Getaway Locator</h1>
+        <div class="input-container">
+            <label for="temperature">Desired temperature:</label>
+            <input type="number" id="temperature" placeholder="Enter temperature in °C">
+            <button onclick="fetchCities(); changeCardSize();">Find</button>
+        </div>
+        <div id="cities" class="cities-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
