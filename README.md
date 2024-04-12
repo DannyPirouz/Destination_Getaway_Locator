@@ -9,4 +9,6 @@ To run the application:
 1. You need to get an API key from openweathermap.org and paste your key in apiKey
 2. run npm install
 3. run npm install axios
-4. run the server by running node server.js
+4. run npm install express
+5. run npm install node-fetch
+6. run the server by running node server.js
